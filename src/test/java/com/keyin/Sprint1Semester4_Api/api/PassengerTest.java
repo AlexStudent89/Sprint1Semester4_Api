@@ -1,4 +1,4 @@
-package com.keyin.Sprint1Semester4_Api;
+package com.keyin.Sprint1Semester4_Api.api;
 
 import com.keyin.Sprint1Semester4_Api.model.Passenger;
 import com.keyin.Sprint1Semester4_Api.service.PassengerService;
