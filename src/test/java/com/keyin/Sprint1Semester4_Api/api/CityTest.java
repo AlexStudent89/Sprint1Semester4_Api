@@ -1,4 +1,4 @@
-package com.keyin.Sprint1Semester4_Api;
+package com.keyin.Sprint1Semester4_Api.api;
 
 import com.keyin.Sprint1Semester4_Api.model.City;
 import com.keyin.Sprint1Semester4_Api.service.CityService;
