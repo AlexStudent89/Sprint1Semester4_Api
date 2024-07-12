@@ -1,6 +1,10 @@
 package com.keyin.Sprint1Semester4_Api.model;
+<<<<<<< Updated upstream
 
 public class Airport {
+=======
+publicclassAirport {
+>>>>>>> Stashed changes
     private Long id;
     private String name;
     private String code;
