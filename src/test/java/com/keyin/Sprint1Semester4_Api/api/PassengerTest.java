@@ -11,12 +11,12 @@ public class PassengerTest {
     @Test
     public void testAddPassenger() {
         PassengerService passengerService = new PassengerService();
-        Passenger passenger = new Passenger(1L, "John", "Doe", "1234567890", 1L);
+        Passenger passenger = new Passenger(1L, "Mohamed", "Maghrebi", "1234567890", 1L);
 
         passengerService.addPassenger(passenger);
 
         assertEquals(1, passengerService.getAllPassengers().size());
-        assertEquals("John", passengerService.getAllPassengers().get(0).getFirstName());
+        assertEquals("Mohamed", passengerService.getAllPassengers().get(0).getFirstName());
     }
 }
 
