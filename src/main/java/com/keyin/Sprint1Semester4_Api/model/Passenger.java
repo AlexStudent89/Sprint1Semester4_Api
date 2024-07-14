@@ -1,6 +1,8 @@
 // passenger
 package com.keyin.Sprint1Semester4_Api.model;
 
+import java.util.List;
+
 public class Passenger {
     private Long id;
     private String firstName;
@@ -32,5 +34,19 @@ public class Passenger {
 
     public Long getCityId() { return cityId; }
     public void setCityId(Long cityId) { this.cityId = cityId; }
+
+    public Object getCity() {
+        return null;
+    }
+
+    public Object getAircraftList() {
+        return null;
+    }
+
+    public void setCity(City city) {
+    }
+
+    public void setAircraftList(List<Aircraft> aircraftList) {
+    }
 }
 

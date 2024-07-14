@@ -1,9 +1,10 @@
+
 package com.keyin.Sprint1Semester4_Api.api;
 
 import com.keyin.Sprint1Semester4_Api.model.Passenger;
 import com.keyin.Sprint1Semester4_Api.model.City;
 import com.keyin.Sprint1Semester4_Api.model.Aircraft;
-import com.keyin.Sprint1Semester4_Api.service.PassengerService;
+//import com.keyin.Sprint1Semester4_Api.service.PassengerService;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
@@ -29,7 +30,7 @@ public class PassengerTest {
         City city = new City(1L, "St.John's", "NL Province", 34100, new ArrayList<>(), new ArrayList<>());
         List<Aircraft> aircraftList = new ArrayList<>();
 
-        Passenger passenger = new Passenger(1L, "Alex", "Ewida", "7093301698", city, aircraftList);
+        Passenger passenger = new Passenger();
 
         assertEquals(1L, passenger.getId());
         assertEquals("Alex", passenger.getFirstName());
@@ -41,16 +42,18 @@ public class PassengerTest {
 
     @Test
     public void testSettersAndGetters() {
+        City city = null;
+        List<Aircraft> aircraftList = null;
         Passenger passenger = new Passenger();
         passenger.setId(1L);
         passenger.setFirstName("Mohamed");
         passenger.setLastName("Maghrebi");
         passenger.setPhoneNumber("7093305254");
 
-        City city = new City(2L, "Tun", "Tunis Province", 680000, new ArrayList<>(), new ArrayList<>());
+        city = new City(2L, "Tun", "Tunis Province", 680000, new ArrayList<>(), new ArrayList<>());
         passenger.setCity(city);
 
-        List<Aircraft> aircraftList = new ArrayList<>();
+        aircraftList = new ArrayList<>();
         passenger.setAircraftList(aircraftList);
 
         assertEquals(1L, passenger.getId());

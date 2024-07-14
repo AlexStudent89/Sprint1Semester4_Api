@@ -1,3 +1,4 @@
+
 package com.keyin.Sprint1Semester4_Api.api;
 
 import com.keyin.Sprint1Semester4_Api.model.Airport;
@@ -22,7 +23,7 @@ public class AirportTest {
     public void testParameterizedConstructor() {
         City city = new City(1L, "St.John's", "NL Province", 34100, null, null);
 
-        Airport airport = new Airport(1L, "John's International Airport", "YYT", city);
+        Airport airport = new Airport(1L, "John's International Airport", "YYT", city.getId());
 
         assertEquals(1L, airport.getId());
         assertEquals("John's International Airport", airport.getName());
@@ -62,9 +63,9 @@ public class AirportTest {
         City city1 = new City(1L, "St.John's", "NL Province", 34100, null, null);
         City city2 = new City(2L, "Tun", "Tunis Province", 680000, null, null);
 
-        Airport airport1 = new Airport(1L, "John's International Airport", "YYT", city1);
-        Airport airport2 = new Airport(1L, "John's International Airport", "YYT", city1);
-        Airport airport3 = new Airport(2L, "Tun", "OACI", city2);
+        Airport airport1 = new Airport(1L, "John's International Airport", "YYT", city1.getId());
+        Airport airport2 = new Airport(1L, "John's International Airport", "YYT", city1.getId());
+        Airport airport3 = new Airport(2L, "Tun", "OACI", city2.getId());
 
         assertEquals(airport1, airport2);
         assertNotEquals(airport1, airport3);

@@ -1,7 +1,6 @@
 package com.keyin.Sprint1Semester4_Api.api;
 
 import com.keyin.Sprint1Semester4_Api.model.City;
-import com.keyin.Sprint1Semester4_Api.service.CityService;
 import com.keyin.Sprint1Semester4_Api.model.Airport;
 import com.keyin.Sprint1Semester4_Api.model.Passenger;
 import org.junit.jupiter.api.Test;
@@ -15,7 +14,7 @@ public class CityTest {
 
     @Test
     public void testDefaultConstructor() {
-        City city = new City();
+        City city = new City(1L, "St.John's", "NL Province", 34100, null, null);
         assertNull(city.getId());
         assertNull(city.getName());
         assertNull(city.getProvince());
@@ -41,7 +40,7 @@ public class CityTest {
 
     @Test
     public void testSettersAndGetters() {
-        City city = new City();
+        City city = new City(1L, "St.John's", "NL Province", 34100, null, null);
         city.setId(1L);
         city.setName("Tun");
         city.setProvince("Tunis Province");
