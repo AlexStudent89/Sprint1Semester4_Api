@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ca4395f0-c804-48a2-9ca4-910b967b183c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/api/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/api/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/Sprint1Semester4_Api/api/AircraftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/keyin/Sprint1Semester4_Api/api/AircraftTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/Sprint1Semester4_Api/api/AirportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/keyin/Sprint1Semester4_Api/api/AirportTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/Sprint1Semester4_Api/api/CityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/keyin/Sprint1Semester4_Api/api/CityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/Sprint1Semester4_Api/api/PassengerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/keyin/Sprint1Semester4_Api/api/PassengerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Fixing-the-test-files",
+    "git-widget-placeholder": "Changing-and-updating-files",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
