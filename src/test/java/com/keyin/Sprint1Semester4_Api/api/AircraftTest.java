@@ -1,3 +1,4 @@
+//AircraftTest
 package com.keyin.Sprint1Semester4_Api.api;
 
 import com.keyin.Sprint1Semester4_Api.model.Aircraft;
@@ -8,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class AircraftTest {
 
     @Test
-    public void testAddAircraft() {
+    public void testAddFirstAircraft() {
         AircraftService aircraftService = new AircraftService();
         Aircraft aircraft = new Aircraft(1L, "Boeing 747", "AirCanada Airlines", 350);
 
@@ -19,7 +20,7 @@ public class AircraftTest {
     }
 
     @Test
-    public void testAddAircraft() {
+    public void testAddSecondAircraft() {
         AircraftService aircraftService = new AircraftService();
         Aircraft aircraft = new Aircraft(2L, "Boeing 307", "Tunisair Airlines", 300);
 
