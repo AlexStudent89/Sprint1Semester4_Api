@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ca4395f0-c804-48a2-9ca4-910b967b183c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< Updated upstream
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/controller/AircraftController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/controller/AircraftController.java" afterDir="false" />
-=======
->>>>>>> Stashed changes
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/api/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/api/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +24,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
+    &quot;associatedIndex&quot;: 0
+    }</component>
   <component name="ProjectId" id="2j7hLiwpYRpEbfiNBzpvjcc4riK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,17 +37,52 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-<<<<<<< Updated upstream
-    "git-widget-placeholder": "update-Aircraf-Controller-",
-=======
-    "git-widget-placeholder": "main",
->>>>>>> Stashed changes
+    "git-widget-placeholder": "Fixing-the-test-files",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.keyin.Sprint1Semester4_Api.api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.keyin.Sprint1Semester4_Api.api.App" />
+      <module name="Sprint1Semester4_Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.Sprint1Semester4_Api.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.keyin.Main" />
+      <module name="Sprint1Semester4_Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
