@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca4395f0-c804-48a2-9ca4-910b967b183c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/api/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/api/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/model/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/model/Airport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/model/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/model/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/model/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/model/Passenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/Sprint1Semester4_Api/api/AircraftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/keyin/Sprint1Semester4_Api/api/AircraftTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/Sprint1Semester4_Api/api/AirportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/keyin/Sprint1Semester4_Api/api/AirportTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/Sprint1Semester4_Api/api/CityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/keyin/Sprint1Semester4_Api/api/CityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/Sprint1Semester4_Api/api/PassengerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/keyin/Sprint1Semester4_Api/api/PassengerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ca4395f0-c804-48a2-9ca4-910b967b183c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +35,7 @@
   "keyToString": {
     "Application.App.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Fixing-errors-in-the-test-files",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
