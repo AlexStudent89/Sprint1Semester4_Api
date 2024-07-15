@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ca4395f0-c804-48a2-9ca4-910b967b183c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/controller/AircraftController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/controller/AircraftController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/controller/AirportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/controller/AirportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/controller/CityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/controller/CityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/controller/PassengerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/controller/PassengerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/service/PassengerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Sprint1Semester4_Api/service/PassengerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +39,7 @@
     "Application.App.executor": "Debug",
     "JUnit.PassengerTest.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "update-Aircraft-Controller",
+    "git-widget-placeholder": "Update-passenger-service-file",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
