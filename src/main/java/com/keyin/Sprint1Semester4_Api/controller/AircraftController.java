@@ -17,7 +17,7 @@ public class AircraftController {
     @Autowired
     private AircraftService aircraftService;
 
-    @GetMapping
+    @GetMapping("/getAllAircrafts")
     public List<Aircraft> getAllAircraft() {
         return aircraftService.getAllAircraft();
     }
