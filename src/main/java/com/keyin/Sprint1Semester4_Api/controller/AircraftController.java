@@ -2,6 +2,7 @@
 package com.keyin.Sprint1Semester4_Api.controller;
 
 import com.keyin.Sprint1Semester4_Api.model.Aircraft;
+import com.keyin.Sprint1Semester4_Api.model.Airport;
 import com.keyin.Sprint1Semester4_Api.service.AircraftService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -21,24 +22,34 @@ public class AircraftController {
     public List<Aircraft> getAllAircraft() {
         return aircraftService.getAllAircraft();
     }
-//    // Get aircraft by index  http://localhost:8080/aircraft/{index}
-//    @GetMapping("/{index}")
-//    public Aircraft getAircraft(@PathVariable int index) {
-//        return aircraftService.getAircraft(index);
-//    }
-    @PostMapping
-    public void addAircraft(@RequestBody Aircraft aircraft) {
-        aircraftService.addAircraft(aircraft);
+
+    @PostMapping("/createNewAircraft")
+    public void createNewAircraft(@RequestBody Aircraft aircraft) {
+        aircraftService.createAircraft(aircraft);
     }
-//    // Edit an aircraft http://localhost:8080/aircraft/{index}
-//    @PutMapping("/{index}")
-//    public Aircraft updateAircraft(@PathVariable int index, @RequestBody Aircraft updatedAircraft) {
-//        return aircraftService.updateAircraft(index, updatedAircraft);
-//    }
-//
-//    //  DELETE an aircraft  http://localhost:8080/aircraft/{index}
-//    @DeleteMapping("/{index}")
-//    public void deleteAircraft(@PathVariable int index) {
-//        aircraftService.deleteAircraft(index);
-//    }
+
+
+    @PutMapping("/addAllowed/{id}")
+    public void addAllowedAirport(@PathVariable long id, @RequestBody Airport airport){
+        List<Aircraft> optionalAircraft = aircraftService.searchById(id);
+        for(Aircraft aircraft:optionalAircraft){
+            if(aircraft.getId().equals(id)){
+                aircraft.addAllowedAirport(airport);
+            }
+        }
+    }
+    // Edit an aircraft http://localhost:8080/aircraft/{index}
+    @PutMapping("/updateAircraft/{id}")
+    public Aircraft updateAircraft(@PathVariable long id, @RequestBody Aircraft updatedAircraft) {
+        return aircraftService.updateAircraft(id, updatedAircraft);
+    }
+
+    //  DELETE an aircraft  http://localhost:8080/aircraft/{index}
+    @DeleteMapping("/deleteAircraft/{id}")
+    public Aircraft deleteAircraft(@PathVariable long id) {
+        aircraftService.deleteAircraft(id);
+        System.out.println("Aircraft Gonzo");
+
+        return null;
+    }
 }

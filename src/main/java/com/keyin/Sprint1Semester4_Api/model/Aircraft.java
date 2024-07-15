@@ -9,16 +9,21 @@ public class Aircraft {
     private String airlineName;
     private int numberOfPassengers;
 
+    // One To Many RelationShip
     private List<Airport> listOfAllowedAirports;
 
-    public Aircraft() {}
+
 
     public Aircraft(Long id, String type, String airlineName, int numberOfPassengers) {
         this.id = id;
         this.type = type;
         this.airlineName = airlineName;
         this.numberOfPassengers = numberOfPassengers;
-        this.listOfAllowedAirports = new ArrayList<>();
+        listOfAllowedAirports = new ArrayList<>();
+    }
+
+    public Aircraft() {
+        listOfAllowedAirports = new ArrayList<>();
     }
 
     public Long getId() { return id; }
@@ -40,5 +45,14 @@ public class Aircraft {
 
     public void setListOfAllowedAirports(List<Airport> listOfAllowedAirports) {
         this.listOfAllowedAirports = listOfAllowedAirports;
+    }
+
+    // Two Methods For Adding and removing allowed airport
+    public void addAllowedAirport(Airport airport){
+        listOfAllowedAirports.add(airport);
+    }
+
+    public void removeFromAllowedAirports(Airport airport){
+        listOfAllowedAirports.remove(airport);
     }
 }
