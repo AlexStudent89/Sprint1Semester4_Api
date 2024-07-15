@@ -8,19 +8,58 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/airport")
 public class AirportController {
 
     @Autowired
     private AirportService airportService;
 
+
     @GetMapping
     public List<Airport> getAllAirports() {
         return airportService.getAllAirports();
     }
 
-    @PostMapping
-    public void addAirport(@RequestBody Airport airport) {
-        airportService.addAirport(airport);
-    }
+//    @PostMapping
+//    public void addAirport(@RequestBody Airport airport) {
+//        airportService.addAirport(airport);
+//    }
+//
+//    @PostMapping("/generate")
+//    public Airport airport(@RequestParam(value = "id", required = false) int id,
+//                           @RequestParam(value = "name", required = false) String name,
+//                           @RequestParam(value = "code", required = false) String code,
+//                           @RequestBody City city) {
+//        return airportService.generateAirport(id, name, code, city);
+//    }
+
+//    @GetMapping("/{id}")
+//    public Airport getAirport(@PathVariable int id) {
+//        return airportService.getAirport(id);
+//    }
+
+//    @GetMapping
+//    public List<Airport> getAllAirports(@RequestParam(value = "city", required = false) String cityName) {
+//        if (cityName != null) {
+//            return airportService.getAirportsByCity(cityName);
+//        } else {
+//            return airportService.getAllAirports();
+//        }
+//    }
+
+//    @PostMapping
+//    public Airport createAirport(@RequestBody Airport newAirport) {
+//        return airportService.createAirport(newAirport);
+//    }
+
+//    @PutMapping("/{id}")
+//    public Airport updateAirport(@PathVariable int id, @RequestBody Airport updatedAirport) {
+//        return airportService.updateAirport(id, updatedAirport);
+//    }
+//    @DeleteMapping("/{id}")
+//    public void deleteAirport(@PathVariable int id) {
+//        airportService.deleteAirport(id);
+//    }
+
 }
