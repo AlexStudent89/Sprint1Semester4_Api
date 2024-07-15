@@ -18,7 +18,7 @@ public class PassengerService {
         passengerList.add(passenger);
     }
       //To retrieve a passenger by index
-//    public Passenger getPassenger(int index) {
+//    public Passenger getPassengerByIndex(int index) {
 //        if (index >= 0 && index < passengers.size()) {
 //            return passengers.get(index);
 //        }

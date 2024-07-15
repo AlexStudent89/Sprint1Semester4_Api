@@ -21,7 +21,7 @@ public class PassengerController {
     }
 
     @PostMapping
-    public void addPassenger(@RequestBody Passenger passenger) {
+    public void createNewPassenger(@RequestBody Passenger passenger) {
         passengerService.addPassenger(passenger);
     }
 //    @GetMapping("/{index}")
