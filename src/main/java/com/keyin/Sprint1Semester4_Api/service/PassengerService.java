@@ -17,43 +17,49 @@ public class PassengerService {
     public void addPassenger(Passenger passenger) {
         passengerList.add(passenger);
     }
-      //To retrieve a passenger by index
-//    public Passenger getPassengerByIndex(int index) {
-//        if (index >= 0 && index < passengers.size()) {
-//            return passengers.get(index);
-//        }
-//        return null;
-//    }
 
-    // To create a new passenger
-//    public Passenger createPassenger(Passenger newPassenger) {
-//        passengers.add(newPassenger);
-//        return newPassenger;
-//    }
+// To retrieve a passenger by index
 
-    // To Update a passenger
-//    public Passenger updatePassenger(int index, Passenger updatedPassenger) {
-//        if (index >= 0 && index < passengers.size()) {
-//            passengers.set(index, updatedPassenger);
-//            return updatedPassenger;
-//        }
-//        return null;
-//    }
+    public Passenger getPassengerByIndex(int index) {
+        if (index >= 0 && index < passengerList.size()) {
+            return passengerList.get(index);
+        }
+        return null;
+    }
 
-    // To get a plane for a passenger
-//    public List<Aircraft> getAircraftForPassenger(int index) {
-//        if (index >= 0 && index < passengers.size()) {
-//            return passengers.get(index).getAircraftList();
-//        }
-//        throw new RuntimeException("Passenger not found with index: " + index);
-//    }
+// To create a new passenger
 
-    // To remove a passenger
-//    public void deletePassenger(int index) {
-//        if (index >= 0 && index < passengers.size()) {
-//            passengers.remove(index);
-//        }
-//    }
+    public Passenger createPassenger(Passenger newPassenger) {
+        passengerList.add(newPassenger);
+        return newPassenger;
+    }
+
+// To Update a passenger
+
+    public Passenger updatePassenger(int index, Passenger updatedPassenger) {
+        if (index >= 0 && index < passengerList.size()) {
+            passengerList.set(index, updatedPassenger);
+            return updatedPassenger;
+        }
+        return null;
+    }
+
+// To get a plane for a passenger
+
+    public List<Aircraft> getAircraftForPassenger(int index) {
+        if (index >= 0 && index < passengerList.size()) {
+            return (List<Aircraft>) passengerList.get(index).getAircraftList();
+        }
+        throw new RuntimeException("Passenger not found with index: " + index);
+    }
+
+// To remove a passenger
+
+    public void deletePassenger(int index) {
+        if (index >= 0 && index < passengerList.size()) {
+            passengerList.remove(index);
+        }
+    }
 
 
 }

@@ -24,6 +24,9 @@ public class City {
         this.passengers = passengers;
     }
 
+    public City() {
+    }
+
     // G and S
     public Long getId() {
         return id;
