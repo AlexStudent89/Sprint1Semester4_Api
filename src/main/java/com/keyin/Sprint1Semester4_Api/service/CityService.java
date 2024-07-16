@@ -1,6 +1,8 @@
 package com.keyin.Sprint1Semester4_Api.service;
 
+import com.keyin.Sprint1Semester4_Api.model.Airport;
 import com.keyin.Sprint1Semester4_Api.model.City;
+import com.keyin.Sprint1Semester4_Api.model.Passenger;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -16,5 +18,32 @@ public class CityService {
 
     public void addCity(City city) {
         cityList.add(city);
+    }
+
+    public City generateCity(Long id, String name, String province, int population) {
+        return null;
+    }
+
+    public City getCity(Integer index) {
+        return null;
+    }
+
+    public City createCity(City newCity) {
+        return newCity;
+    }
+
+    public City updateCity(Integer index, City updatedCity) {
+        return updatedCity;
+    }
+
+    public void deleteCity(Integer index) {
+    }
+
+    public List<Airport> getAirportsInCity(Integer index) {
+        return List.of();
+    }
+
+    public List<Passenger> getPassengersInCity(Integer index) {
+        return List.of();
     }
 }
