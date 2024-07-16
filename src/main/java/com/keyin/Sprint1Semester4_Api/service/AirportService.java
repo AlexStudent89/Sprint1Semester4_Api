@@ -1,4 +1,4 @@
-//Airport Service
+//AirportService
 package com.keyin.Sprint1Semester4_Api.service;
 
 import com.keyin.Sprint1Semester4_Api.model.Airport;
