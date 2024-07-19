@@ -24,14 +24,7 @@ public class CityController {
 //    }
 
     // Get City by param
-    @GetMapping("/city")
-    public City city(@RequestParam(value = "id", required = false) Long id,
-                     @RequestParam(value = "name", required = false) String name,
-                     @RequestParam(value = "province", required = false) String province,
-                     @RequestParam(value = "population", defaultValue = "0") int population) {
 
-        return cityService.generateCity(id, name, province, population);
-    }
 
     @GetMapping("/city/{index}")
     public City getCity(@PathVariable Integer index) {
@@ -45,7 +38,7 @@ public class CityController {
 
     @PostMapping("/city")
     public City createCity(@RequestBody City newCity) {
-        return cityService.createCity(newCity);
+        return cityService.addCity(newCity);
     }
 
     @PutMapping("/city/{index}")
