@@ -16,8 +16,9 @@ public class CityService {
         return cityList;
     }
 
-    public void addCity(City city) {
+    public City addCity(City city) {
         cityList.add(city);
+        return city;
     }
 
     public City generateCity(Long id, String name, String province, int population) {
@@ -46,4 +47,6 @@ public class CityService {
     public List<Passenger> getPassengersInCity(Integer index) {
         return List.of();
     }
+
+
 }
